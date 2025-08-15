@@ -196,7 +196,7 @@ def create_qc_chart(data, date_col, param_col, cl, ucl, lcl, std_dev, violations
 
 # --- Main Application ---
 def main():
-    st.title("📊 Advanced Quality Control Chart Generator")
+    st.title("📊 AquOmixLab - Quality Control Chart Generator")
     st.markdown("Generate **Individual Control Charts (I-Charts)** with interactive **Westgard Rules** analysis.")
 
     with st.sidebar:
@@ -289,4 +289,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
