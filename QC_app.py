@@ -221,7 +221,7 @@ def main():
         # --- Add logo and hyperlink at the bottom of the sidebar ---
         st.markdown("---")
         # Replace with the raw URL of your logo from your GitHub repository
-        logo_url = "https://github.com/trikaloudis/qc-chart-streamlit-app/blob/main/Aquomixlab%20Logo%20v2%20white%20font.jpg"
+        logo_url = "Aquomixlab Logo v2 white font.jpg"
         st.image(logo_url, use_container_width=True)
         st.markdown(
             "<div style='text-align: center;'><a href='https://www.aquomixlab.com/'>https://www.aquomixlab.com/</a></div>",
@@ -289,3 +289,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
