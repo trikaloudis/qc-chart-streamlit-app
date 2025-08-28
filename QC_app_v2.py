@@ -15,7 +15,7 @@ from collections import defaultdict
 
 # --- Page Configuration ---
 st.set_page_config(
-    page_title="Advanced Quality Control Chart Generator",
+    page_title="AquOmixLab - Quality Control Chart Generator",
     page_icon="📊",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -329,3 +329,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
